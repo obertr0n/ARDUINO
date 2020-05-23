@@ -5,10 +5,6 @@
 #include <Motor.h>
 #include <Display.h>
 
-#define ERROR_STALL     1
-#define ERROR_USTART    2
-#define ERROR_INIT      4
-
 class Watchdog : TimedService {
 private:
     Motor *motor = nullptr;
