@@ -77,6 +77,18 @@ After testing quite a few DC motors from Ebay, Aliexpress and Banggood, I stuck 
   </p>
 </details>
 
+#### [Magnetic Hall Encoder](https://www.ebay.com/itm/153185900651)
+
+- hall encoder sensor mount models: [hall-cover.stl](./models/sensor-hall/hall-cover.stl), [hall-mount.stl](./models/sensor-hall/hall-mount.stl), [hall-adapter.stl](./models/sensor-hall/hall-adapter.stl)
+
+  | _Encoder_ | _Arduino - Nano_ |
+  | --------- | :--------------: |
+  | VCC       |        5V        |
+  | A         |      GPIO2       |
+  | B         |      GPIO3       |
+  | GND       |       GND        |
+
+
 ### Error codes && handling
 
 - if any Error message bellow is showed on display it is needed to manually power down/up table to be able to operate once again,
